@@ -16,13 +16,14 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 
 The data set contains the following diseases:
 
-![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment.git/Readme_images/1.png)
+![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/1.PNG)
 
-![datasetplot](https://github.com/Bindugk4/Melanoma_Detection_Assignment.git/Readme_images/2.png)
 
 To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
-
+Sample images from the notebook
+![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/2.PNG)
+![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/3.PNG)
 
 ## CNN Architecture Design
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
