@@ -16,14 +16,14 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 
 The data set contains the following diseases:
 
-![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/1.PNG)
+![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/Diseaes.PNG)
 
 
 To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
 Sample images from the notebook
-![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/2.PNG)
-![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/3.PNG)
+![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/Sample_image1.PNG)
+![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/Sample_image2.PNG)
 
 ## CNN Architecture Design
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
@@ -38,9 +38,9 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 - Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one.
 
 ### Model Architecture
-![Model Arch](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/d8b2ca8cc296af14ab9aa7a6def31a7efc86271b/Readme_images/ModelLayer.png)
+![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/model_architecture.PNG)
 
 ### Model Evaluation
-![ModelEvaluation](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/7e7a17d3c891bf12be42385979168135775654c4/Readme_images/ModelEvaluation.png)
+![datasetdf](https://github.com/Bindugk4/Melanoma_Detection_Assignment/blob/main/Sample_images/model_Evaluation.PNG)
 
 
